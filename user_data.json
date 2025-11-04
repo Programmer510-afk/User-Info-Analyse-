@@ -1,0 +1,22 @@
+[
+    {
+        "username": "Md.Abiduzzaman Rahat",
+        "phone": "01762075632",
+        "password": "rahat123",
+        "full_name": "Md. Abiduzzaman Rahat",
+        "father_name": "Md. Auheduzzaman",
+        "mother_name": "Habiba Saif",
+        "address": "Jaleshwaritola, Bogura",
+        "religion": "Islam"
+    },
+    {
+        "username": "Nusrath Jerin",
+        "phone": "01933009801",
+        "password": "nusrath123",
+        "full_name": "Nusrath Jerin",
+        "father_name": "Md. Auheduzzaman",
+        "mother_name": "Habiba Saif",
+        "address": "Jaleshwaritola, Bogura",
+        "religion": "Islam"
+    }
+]

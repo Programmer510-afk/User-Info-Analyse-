@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.links a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* পাসওয়ার্ড টগল এর জন্য নতুন/পরিবর্তিত CSS */
+.password-container {
+    position: relative;
+}
+
+.password-container input {
+    padding-right: 40px; /* আইকনের জন্য জায়গা */
+}
+
+/* আইকনের স্টাইল */
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 24px; /* SVG-এর জন্য সামান্য বড় সাইজ */
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+/* ডিফল্ট আইকন (পাসওয়ার্ড লুকানো) */
+.toggle-password.hidden {
+    background-image: url('images/hide.svg'); /* আপনার hide.svg ফাইল */
+}
+
+/* দেখানো আইকন (পাসওয়ার্ড দেখা যাচ্ছে) */
+.toggle-password.visible {
+    background-image: url('images/show.svg'); /* আপনার show.svg ফাইল */
+}
+
+/* প্রোফাইল ডিসপ্লে স্টাইল (search.php এর জন্য) */
+.profile-box {
+    border: 2px solid #007bff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #e9f5ff;
+}
+
+.profile-box p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.profile-box strong {
+    min-width: 120px;
+    display: inline-block;
+}
